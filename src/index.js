@@ -1,13 +1,34 @@
 import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import App from './App/App';
 import reportWebVitals from './reportWebVitals';
 import * as serviceWorker from './serviceWorker';
+import 'focus-visible/dist/focus-visible';
+import { mode } from '@chakra-ui/theme-tools';
 import {
   ChakraProvider,
   ColorModeScript,
-  theme,
+  extendTheme,
 } from '@chakra-ui/react';
+
+const theme = extendTheme({
+  config: {
+    initialColorMode: 'dark',
+    useSystemColorMode: false,
+  },
+  fonts: {
+    body: 'Ubuntu, system-ui, sans-serif',
+    heading: 'Ubuntu, system-ui, sans-serif',
+  },
+  styles: {
+    global: (props) => ({
+      body: {
+        //bg: mode('#b5d0da', '#464646')(props),
+        bg: mode('#b5d0da', 'gray.800')(props),
+      }
+    })
+  }
+})
 
 ReactDOM.render(
   <StrictMode>
