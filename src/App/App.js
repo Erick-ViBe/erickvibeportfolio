@@ -18,7 +18,6 @@ function App() {
       <Skills />
       <Divider my='25px' variant='dashed' />
       <Projects />
-      <Divider my='25px' variant='dashed' />
       <Contact />
     </>
   );

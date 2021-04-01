@@ -5,7 +5,6 @@ import {
   IconButton,
 } from '@chakra-ui/react'
 import { FaGithub, FaLinkedin, FaTelegram } from 'react-icons/fa'
-import {SearchIcon} from '@chakra-ui/icons';
 
 export const Contact = () => {
   //const [ScrollToTop, SetScrollToTop] = React.useState(false)
