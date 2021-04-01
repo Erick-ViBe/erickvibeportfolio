@@ -17,7 +17,7 @@ export const Hero = () => {
       id='Info'
     >
       <Image
-        src='https://lh3.googleusercontent.com/proxy/YR_8KAICW0KUbuMfVSmIjPNj4akQyX-LeyaPCGOx0ok5-pAL9vpdSX7hAIEp-Qf-vgKa2yQn1nLv625mHrw6L9BrYsTgny8'
+        src='https://lh3.googleusercontent.com/proxy/dbqWYj_FyspR2u4ZnXlErmW4zT3eRCFFmTNZ_SRp72gxNBr6EA8ZRFzQH1NnMYaYPwHu79yjy4IpKStc1ICipfrfClrCbSA'
         minW='60%'
         mb={{base: '25px', md:'none'}}
       />
