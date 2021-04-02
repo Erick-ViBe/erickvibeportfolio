@@ -18,7 +18,7 @@ export const Hero = () => {
       //flexDirection={{base: 'column-reverse', md: 'row'}}
     >
       <Image
-        src='https://lh3.googleusercontent.com/proxy/cardGETPH3TMPvd3rYeZjDH-E15txL7LZ3rXNCFH6Cgl4jcPdmpMS-Bp43mAf3m-ZUIND-2S7SEWc6l8srIHycOb68G2ic4'
+        src='https://lh3.googleusercontent.com/proxy/MP0be8qC1kRwMJM5wlpqyqzqk6Piw0wtv_Jnpu91xlyi-tmLSVexvlDXHGWyXXcl4Mckqhg3z0EzU-BenZ4aQGBAbiXVoq0'
         minW='60%'
         mb={{base: '25px', md:'none'}}
       />
