@@ -11,7 +11,7 @@ import { ColorModeSwitcher } from './ColorModeSwitcher';
 import DrawerMenu from './DrawerMenu';
 import NavLink from './NavLink';
 
-const links = ['Info', 'Skills', 'Projects', 'Contact']
+const links = ['Info', 'Skills', 'Projects']
 
 export default function ResponsiveNavBar(){
   

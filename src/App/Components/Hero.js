@@ -9,15 +9,16 @@ import {
 export const Hero = () => {
   return (
     <Flex
-      marginX='15%'
+      marginX={{base: '5%', md: '15%'}}
       mt='70px'
       flexWrap='wrap'
       justifyContent='space-evenly'
       alignItems='center'
       id='Info'
+      //flexDirection={{base: 'column-reverse', md: 'row'}}
     >
       <Image
-        src='https://lh3.googleusercontent.com/proxy/dbqWYj_FyspR2u4ZnXlErmW4zT3eRCFFmTNZ_SRp72gxNBr6EA8ZRFzQH1NnMYaYPwHu79yjy4IpKStc1ICipfrfClrCbSA'
+        src='https://lh3.googleusercontent.com/proxy/cardGETPH3TMPvd3rYeZjDH-E15txL7LZ3rXNCFH6Cgl4jcPdmpMS-Bp43mAf3m-ZUIND-2S7SEWc6l8srIHycOb68G2ic4'
         minW='60%'
         mb={{base: '25px', md:'none'}}
       />
