@@ -4,6 +4,7 @@ import {
 import { FaGithub, FaLinkedin, FaTelegram } from 'react-icons/fa'
 import { BigButton } from './ContactBigButton'
 import { SmallButton } from './ContactSmallButton'
+//import { ScrollToTop } from './ScrollToTop'
 
 export const Contact = () => {
   
@@ -45,5 +46,6 @@ export const Contact = () => {
         url='https://t.me/VibErick'
       />
     </Flex>
+      //<ScrollToTop />
   )
 }

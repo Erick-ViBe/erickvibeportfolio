@@ -8,6 +8,7 @@ import { Hero } from './Components/Hero';
 import { Skills } from './Components/Skills';
 import { Projects } from './Components/Projects';
 import { Contact } from './Components/Contact/Contact';
+import { ScrollToTop } from './Components/ScrollToTop'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Divider my='25px' variant='dashed' />
       <Projects />
       <Contact />
+      <ScrollToTop />
     </>
   );
 }

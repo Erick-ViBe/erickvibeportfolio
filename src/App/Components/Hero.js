@@ -7,6 +7,7 @@ import {
 } from '@chakra-ui/react'
 
 export const Hero = () => {
+  //https://drive.google.com/file/d/1m1UAI1-gR0yei3wJGPRdJSvd7uC5fkH6/view?usp=sharing
   return (
     <Flex
       marginX={{base: '5%', md: '15%'}}
@@ -15,10 +16,9 @@ export const Hero = () => {
       justifyContent='space-evenly'
       alignItems='center'
       id='Info'
-      //flexDirection={{base: 'column-reverse', md: 'row'}}
     >
       <Image
-        src='https://lh3.googleusercontent.com/proxy/MP0be8qC1kRwMJM5wlpqyqzqk6Piw0wtv_Jnpu91xlyi-tmLSVexvlDXHGWyXXcl4Mckqhg3z0EzU-BenZ4aQGBAbiXVoq0'
+        src='https://drive.google.com/thumbnail?id=1m1UAI1-gR0yei3wJGPRdJSvd7uC5fkH6'
         minW='60%'
         mb={{base: '25px', md:'none'}}
       />
