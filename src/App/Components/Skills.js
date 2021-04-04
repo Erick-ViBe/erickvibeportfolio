@@ -19,7 +19,7 @@ import {
 
 export const Skills = () => {
   return (
-    <Box>
+    <Box margin='35px'>
       <Text
         fontSize='5xl'
         align='center'

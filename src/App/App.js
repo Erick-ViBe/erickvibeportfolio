@@ -6,9 +6,9 @@ import {
 import ResponsiveNavBar from './Components/NavBar/NavBar';
 import { Hero } from './Components/Hero';
 import { Skills } from './Components/Skills';
-import { Projects } from './Components/Projects';
+import { Projects } from './Components/Projects/Projects';
 import { Contact } from './Components/Contact/Contact';
-import { ScrollToTop } from './Components/ScrollToTop'
+import { ScrollToTop } from './Components/ScrollToTop';
 
 function App() {
   return (
