@@ -4,11 +4,12 @@ import {
   Flex,
 } from '@chakra-ui/react'
 import { ProjectCard } from './ProjectCard'
+import { RawProjectsInfo } from './RawProjectsInfo'
 
 export const Projects = () => {
   return (
     <Box
-      mb='999px'
+      mb={{base:'30px', md:'60px'}}
     >
       <Text
         fontSize='5xl'
@@ -19,16 +20,26 @@ export const Projects = () => {
         Projects
       </Text>
       <Flex
-        marginX='10%'
+        mx='5%'
         flexWrap='wrap'
         justifyContent='space-evenly'
         alignItems='center'
       >
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
+        {
+          RawProjectsInfo.map((projectInfo) => {
+            return (
+              <ProjectCard
+                photo={projectInfo.photo}
+                title={projectInfo.title}
+                content={projectInfo.content}
+                github={projectInfo.github}
+                project={projectInfo.project}
+                tags={projectInfo.tags}
+                key={projectInfo.title}
+              />
+            )
+          })
+        }
       </Flex>
     </Box>
   )

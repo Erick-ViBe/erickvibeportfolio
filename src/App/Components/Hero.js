@@ -38,5 +38,6 @@ export const Hero = () => {
         </Text>
       </Box>
     </Flex>
+      //Passionate about the evolution of technology
   )
 }

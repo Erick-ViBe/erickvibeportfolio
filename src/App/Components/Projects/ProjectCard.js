@@ -6,38 +6,73 @@ import {
   Heading,
   Flex,
   IconButton,
+  Tag,
 } from '@chakra-ui/react'
 import { FaGithub } from 'react-icons/fa'
 
-export const ProjectCard = () => {
+export const ProjectCard = ({photo, title, content, github, project, tags}) => {
   return (
     <Box
       bg='gray.900'
       borderRadius='xl'
       borderWidth='1px'
-      maxW='sm'
+      maxW={['sm', 'sm', '45%', 'md']}
+      h='xl'
       overflow='hidden'
       alignItems='center'
-      m='25px'
+      my='25px'
+      mx='15px'
     >
-      <Image src={'https://bit.ly/2Z4KKcF'} />
-      <Heading
-        size='xl'
-        align='center'
-        as='h2'
-        mt='10px'
-      >
-        Project
-      </Heading>
-      <Text m='15px'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      </Text>
+      <Image
+        src={photo}
+        w='450px'
+        h='250px'
+        fit='cover'
+      />
       <Flex
-        mb='15px'
-        justifyContent='space-evenly'
+        flexDir='column'
+        justifyContent='space-around'
+        h='58%'
       >
-        <IconButton icon={<FaGithub />} />
-        <IconButton icon={<ExternalLinkIcon />} />
+        <Heading
+          size='xl'
+          align='center'
+          as='h2'
+          mt='10px'
+        >
+          {title}
+        </Heading>
+        <Text
+          m='15px'
+          fontSize='xl'
+        >
+          {content}
+        </Text>
+        <Flex
+          mb='15px'
+          justifyContent='space-evenly'
+        >
+          {
+            tags.map((tag) => {
+              return (
+                <Tag key={tag}>{tag}</Tag>
+              )
+            })
+          }
+        </Flex>
+        <Flex
+          mb='15px'
+          justifyContent='space-evenly'
+        >
+          <IconButton
+            icon={<FaGithub />}
+            onClick={() => window.open(github, "_blank")}
+          />
+          <IconButton
+            icon={<ExternalLinkIcon />}
+            onClick={() => window.open(project, "_blank")}
+          />
+        </Flex>
       </Flex>
     </Box>
   )

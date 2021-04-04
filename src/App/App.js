@@ -5,7 +5,7 @@ import {
 } from '@chakra-ui/react';
 import ResponsiveNavBar from './Components/NavBar/NavBar';
 import { Hero } from './Components/Hero';
-import { Skills } from './Components/Skills';
+import { Skills } from './Components/Skills/Skills';
 import { Projects } from './Components/Projects/Projects';
 import { Contact } from './Components/Contact/Contact';
 import { ScrollToTop } from './Components/ScrollToTop';
