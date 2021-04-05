@@ -15,6 +15,7 @@ import {
   MySQLLogo,
   LinuxLogo,
   ReactLogo,
+  HerokuLogo,
 } from './Devicons'
 
 export const Skills = () => {
@@ -43,6 +44,7 @@ export const Skills = () => {
         <FlaskLogo />
         <MySQLLogo />
         <LinuxLogo />
+        <HerokuLogo />
         <ReactLogo />
       </Flex>
     </Box>

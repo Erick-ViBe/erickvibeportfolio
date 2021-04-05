@@ -6,11 +6,11 @@ import {
   Heading,
   Flex,
   IconButton,
-  Tag,
 } from '@chakra-ui/react'
 import { FaGithub } from 'react-icons/fa'
+import { BiBook } from 'react-icons/bi'
 
-export const ProjectCard = ({photo, title, content, github, project, tags}) => {
+export const ProjectCard = ({photo, title, content, github, project}) => {
   return (
     <Box
       bg='gray.900'
@@ -48,17 +48,6 @@ export const ProjectCard = ({photo, title, content, github, project, tags}) => {
           {content}
         </Text>
         <Flex
-          justifyContent='space-evenly'
-        >
-          {
-            tags.map((tag) => {
-              return (
-                <Tag key={tag}>{tag}</Tag>
-              )
-            })
-          }
-        </Flex>
-        <Flex
           mb='15px'
           justifyContent='space-evenly'
         >
@@ -68,6 +57,10 @@ export const ProjectCard = ({photo, title, content, github, project, tags}) => {
           />
           <IconButton
             icon={<ExternalLinkIcon />}
+            onClick={() => window.open(project, "_blank")}
+          />
+          <IconButton
+            icon={<BiBook />}
             onClick={() => window.open(project, "_blank")}
           />
         </Flex>

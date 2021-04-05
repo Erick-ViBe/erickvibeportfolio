@@ -34,7 +34,6 @@ export const Projects = () => {
                 content={projectInfo.content}
                 github={projectInfo.github}
                 project={projectInfo.project}
-                tags={projectInfo.tags}
                 key={projectInfo.title}
               />
             )

@@ -5,7 +5,6 @@ export const RawProjectsInfo = [
     'content': 'Task API, with user and status management for each task',
     'github': 'https://github.com/Erick-ViBe/Todos-RESTAPI',
     'project': 'https://github.com/Erick-ViBe',
-    'tags': ['Python', 'Django', 'Heroku']
   },
   
   {
@@ -14,7 +13,6 @@ export const RawProjectsInfo = [
     'content': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     'github': 'https://github.com/Erick-ViBe',
     'project': 'https://github.com/Erick-ViBe',
-    'tags': ['Django', 'Python', 'Heroku']
   },
   
   {
@@ -23,7 +21,6 @@ export const RawProjectsInfo = [
     'content': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     'github': 'https://github.com/Erick-ViBe',
     'project': 'https://github.com/Erick-ViBe',
-    'tags': ['Django', 'Python', 'Heroku']
   },
   
   {
@@ -32,7 +29,6 @@ export const RawProjectsInfo = [
     'content': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     'github': 'https://github.com/Erick-ViBe',
     'project': 'https://github.com/Erick-ViBe',
-    'tags': ['Django', 'Python', 'Heroku']
   },
   
   {
@@ -41,6 +37,5 @@ export const RawProjectsInfo = [
     'content': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     'github': 'https://github.com/Erick-ViBe',
     'project': 'https://github.com/Erick-ViBe',
-    'tags': ['Django', 'Python', 'Heroku']
   },
 ]
