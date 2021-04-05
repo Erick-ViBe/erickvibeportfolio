@@ -8,6 +8,7 @@ export const BigButton = ({icon, url, content}) => {
     <Button
       mr='25px'
       leftIcon={icon}
+      borderWidth='1px'
       size='lg'
       onClick={() => window.open(url, "_blank")}
       display={{base: 'none', md: 'flex'}}

@@ -38,18 +38,16 @@ export const ProjectCard = ({photo, title, content, github, project, tags}) => {
           size='xl'
           align='center'
           as='h2'
-          mt='10px'
         >
           {title}
         </Heading>
         <Text
-          m='15px'
+          mx='15px'
           fontSize='xl'
         >
           {content}
         </Text>
         <Flex
-          mb='15px'
           justifyContent='space-evenly'
         >
           {

@@ -9,6 +9,7 @@ export const SmallButton = ({icon, url}) => {
       icon={icon}
       mr='15px'
       size='sm'
+      borderWidth='1px'
       display={{md: 'none', base: 'flex'}}
       onClick={() => window.open(url, "_blank")}
       bg={useColorModeValue('gray.100', 'gray.900')}

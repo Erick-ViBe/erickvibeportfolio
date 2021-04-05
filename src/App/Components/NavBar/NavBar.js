@@ -26,6 +26,7 @@ export default function ResponsiveNavBar(){
       position='fixed'
       top='0px'
       w='100%'
+      zIndex='5'
     >
       <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
         <HamburgerIcon
