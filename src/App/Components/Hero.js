@@ -5,36 +5,39 @@ import {
   Text,
   Image,
 } from '@chakra-ui/react'
+import myphoto from '../../Assets/MyVectorST.png'
 
 export const Hero = () => {
-  //https://drive.google.com/file/d/1m1UAI1-gR0yei3wJGPRdJSvd7uC5fkH6/view?usp=sharing
   return (
     <Flex
-      marginX={{base: '5%', md: '15%'}}
-      mt='70px'
+      marginX='5%'
+      mt='90px'
       flexWrap='wrap'
       justifyContent='space-evenly'
       alignItems='center'
       id='Info'
     >
       <Image
-        src='https://drive.google.com/thumbnail?id=1m1UAI1-gR0yei3wJGPRdJSvd7uC5fkH6'
-        minW='60%'
+        src={myphoto}
+        minW='50%'
+        boxSize={['80%', '80%', '50%', '50%']}
+        transform= 'scaleX(-1)'
         mb={{base: '25px', md:'none'}}
       />
-      <Box>
+      <Box
+        maxW={['80%', '80%', '45%', '45%']}
+      >
         <Text
           my='auto'
-          fontSize={{base:'4xl', md:'6xl'}}
+          fontSize={['4xl', '5xl', '4xl', '6xl']}
           align='center'
         >
-          Hi, my name is
+          Hi, i'm
+          Erick ViBe
           <br />
-          Erick ViBe!!!
+          Im a Python
           <br />
-          Im a Backend
-          <br />
-          Developer
+          Backend Developer
         </Text>
       </Box>
     </Flex>

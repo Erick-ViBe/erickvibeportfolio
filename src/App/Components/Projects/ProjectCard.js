@@ -6,11 +6,12 @@ import {
   Heading,
   Flex,
   IconButton,
+  Tooltip,
 } from '@chakra-ui/react'
 import { FaGithub } from 'react-icons/fa'
 import { BiBook } from 'react-icons/bi'
 
-export const ProjectCard = ({photo, title, content, github, project}) => {
+export const ProjectCard = ({photo, title, content, github, project, docs}) => {
   return (
     <Box
       bg='gray.900'
@@ -51,18 +52,33 @@ export const ProjectCard = ({photo, title, content, github, project}) => {
           mb='15px'
           justifyContent='space-evenly'
         >
-          <IconButton
-            icon={<FaGithub />}
-            onClick={() => window.open(github, "_blank")}
-          />
-          <IconButton
-            icon={<ExternalLinkIcon />}
-            onClick={() => window.open(project, "_blank")}
-          />
-          <IconButton
-            icon={<BiBook />}
-            onClick={() => window.open(project, "_blank")}
-          />
+          <Tooltip
+            hasArrow
+            label='Source Code'
+          >
+            <IconButton
+              icon={<FaGithub />}
+              onClick={() => window.open(github, "_blank")}
+            />
+          </Tooltip>
+          <Tooltip
+            hasArrow
+            label={title}
+          >
+            <IconButton
+              icon={<ExternalLinkIcon />}
+              onClick={() => window.open(project, "_blank")}
+            />
+          </Tooltip>
+          <Tooltip
+            hasArrow
+            label='Documentation'
+          >
+            <IconButton
+              icon={<BiBook />}
+              onClick={() => window.open(docs, "_blank")}
+            />
+          </Tooltip>
         </Flex>
       </Flex>
     </Box>
