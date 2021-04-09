@@ -44,7 +44,8 @@ export const ProjectCard = ({photo, title, content, github, project, docs}) => {
         </Heading>
         <Text
           mx='15px'
-          fontSize='xl'
+          fontSize={['lg', 'lg', 'xl', 'xl']}
+          px={['5px', '5px', '15px', '15px']}
         >
           {content}
         </Text>

@@ -4,12 +4,8 @@ import {
 } from '@chakra-ui/react'
 
 const LogoProps = {
-  //w: {
-    //md: '155px', 
-    //base: '70px',
-  //},
   w: ['75px', '100px', '125px', '150px'],
-  m: '15px',
+  m: ['15px', '20px', '20px', '25px'],
 }
 
 export const PythonLogo = () => {
