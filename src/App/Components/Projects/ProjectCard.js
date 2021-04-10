@@ -7,6 +7,7 @@ import {
   Flex,
   IconButton,
   Tooltip,
+  useColorModeValue,
 } from '@chakra-ui/react'
 import { FaGithub } from 'react-icons/fa'
 import { BiBook } from 'react-icons/bi'
@@ -14,9 +15,10 @@ import { BiBook } from 'react-icons/bi'
 export const ProjectCard = ({photo, title, content, github, project, docs}) => {
   return (
     <Box
-      bg='gray.900'
+      bg={useColorModeValue('gray.200', 'gray.900')}
       borderRadius='xl'
       borderWidth='1px'
+      borderColor={useColorModeValue('black', 'gray100')}
       maxW={['sm', 'sm', '45%', 'md']}
       h='xl'
       overflow='hidden'
@@ -60,6 +62,7 @@ export const ProjectCard = ({photo, title, content, github, project, docs}) => {
             <IconButton
               icon={<FaGithub />}
               onClick={() => window.open(github, "_blank")}
+              display={github ? 'flex' : 'none'}
             />
           </Tooltip>
           <Tooltip
@@ -69,6 +72,7 @@ export const ProjectCard = ({photo, title, content, github, project, docs}) => {
             <IconButton
               icon={<ExternalLinkIcon />}
               onClick={() => window.open(project, "_blank")}
+              display={project ? 'flex' : 'none'}
             />
           </Tooltip>
           <Tooltip
@@ -78,6 +82,7 @@ export const ProjectCard = ({photo, title, content, github, project, docs}) => {
             <IconButton
               icon={<BiBook />}
               onClick={() => window.open(docs, "_blank")}
+              display={docs ? 'flex' : 'none'}
             />
           </Tooltip>
         </Flex>

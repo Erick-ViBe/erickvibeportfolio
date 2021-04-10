@@ -18,11 +18,11 @@ export default function ResponsiveNavBar(){
   const {isOpen, onOpen, onClose} = useDisclosure()
   
   return (
-    //bg={useColorModeValue('gray.100', 'gray.900')}
-    //bg={useColorModeValue('#508696', '#2f2f2f')}
+      //bg={useColorModeValue('#508696', '#2f2f2f')}
+      //bg={useColorModeValue('#508696', 'gray.900')}
     <Box
       px='5px'
-      bg={useColorModeValue('#508696', 'gray.900')}
+      bg={useColorModeValue('gray.300', 'gray.900')}
       position='fixed'
       top='0px'
       w='100%'
