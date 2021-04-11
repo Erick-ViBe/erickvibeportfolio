@@ -2,6 +2,7 @@ import TodoApiPhoto from '../../../Assets/TodoApiPhoto.png'
 import MovieRaterApiPhoto from '../../../Assets/MovieRaterApiPhoto.jpg'
 import RecipeBookApiPhoto from '../../../Assets/RecipeBookApiPhoto.png'
 import ViBlogApiPhoto from '../../../Assets/ViBlogApiPhoto.jpg'
+import SalesSystemPhoto from '../../../Assets/SalesSystemPhoto.png'
 
 export const RawProjectsInfo = [
   {
@@ -36,16 +37,16 @@ export const RawProjectsInfo = [
     'title': 'ViBlog',
     'content': 'BlogAPI for managing a blogging application, with user, token authentication, comments, likes and tags, with tests and documentation, using Test Driven Development.',
     'github': 'https://github.com/Erick-ViBe/ViBlogAPI',
-    'project': 'https://viblog.herokuapp.com/',
-    'docs': 'https://viblog.herokuapp.com/docs/',
+    'project': 'https://viblogapi.herokuapp.com/',
+    'docs': 'https://viblogapi.herokuapp.com/docs/',
   },
   
   {
-    'photo': 'https://bit.ly/2Z4KKcF',
-    'title': 'Project',
-    'content': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    'github': 'https://github.com/Erick-ViBe',
-    'project': 'https://github.com/Erick-ViBe',
-    'docs': 'https://movie-rater-vibe.herokuapp.com/docs/',
+    'photo': SalesSystemPhoto,
+    'title': 'Sales System',
+    'content': 'Console application that simulates a sales system, receiving product names and allowing the user to find it by its code. Uses linked lists and an AVL Tree, not the most optimal implementation. Data Structures & Algorithms',
+    'github': 'https://github.com/Erick-ViBe/SalesSystem',
+    'project': null,
+    'docs': null,
   },
 ]
