@@ -25,7 +25,7 @@ export const Contact = () => {
       />
       <BigButton
         icon={<FaLinkedin />}
-        url='https://www.linkedin.com/in/sergio-erick-vicencio-benitez-733268162/'
+        url='https://www.linkedin.com/in/erick-vicencio-benitez-3b663120b/'
         content='Linkedin'
       />
       <BigButton
@@ -39,7 +39,7 @@ export const Contact = () => {
       />
       <SmallButton
         icon={<FaLinkedin />}
-        url='https://www.linkedin.com/in/sergio-erick-vicencio-benitez-733268162/'
+        url='https://www.linkedin.com/in/erick-vicencio-benitez-3b663120b/'
       />
       <SmallButton
         icon={<FaTelegram />}
