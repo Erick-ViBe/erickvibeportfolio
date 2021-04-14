@@ -16,7 +16,7 @@ export const Hero = () => {
         flexWrap='wrap'
         justifyContent='space-evenly'
         alignItems='center'
-        id='Info'
+        id='Intro'
       >
         <Image
           src={myphoto}
