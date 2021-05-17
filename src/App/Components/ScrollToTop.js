@@ -27,7 +27,7 @@ export const ScrollToTop = () => {
         >
           <ScrollLink
             activeClass='active'
-            to={'Info'}
+            to={'Intro'}
             spy={true}
             smooth={true}
             duration={1000}
