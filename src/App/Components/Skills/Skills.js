@@ -36,16 +36,16 @@ export const Skills = () => {
         alignItems='center'
       >
         <PythonLogo />
-        <CLogo />
-        <CPlusPlusLogo />
         <JavascriptLogo />
-        <GitHubLogo />
         <DjangoLogo />
+        <ReactLogo />
+        <GitHubLogo />
+        <LinuxLogo />
         <FlaskLogo />
         <MySQLLogo />
-        <LinuxLogo />
+        <CLogo />
+        <CPlusPlusLogo />
         <HerokuLogo />
-        <ReactLogo />
       </Flex>
     </Box>
   )
