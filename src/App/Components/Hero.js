@@ -36,19 +36,18 @@ export const Hero = () => {
             Hi, i'm
             Erick ViBe
             <br />
-            Im a Python
+            I'm a Backend
             <br />
-            Backend Developer
+            Developer
           </Text>
           <Text
             fontSize={['sm', 'md', 'lg', 'xl']}
             align='center'
           >
-            Learning a little more every day, lover of technology and tacos, trying to learn frontend well
+            Learning a little more every day, lover of technology, writing and reading code and tacos
           </Text>
         </Box>
       </Flex>
     </>
-      //Passionate about the evolution of technology
   )
 }
